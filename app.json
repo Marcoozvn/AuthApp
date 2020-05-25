@@ -26,7 +26,15 @@
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
-    }
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "ts",
+        "tsx"
+      ]
+    },
+    "description": "Fluxo simples de autenticação com login/senha ou digital feito com React Native usando Context API + Hooks. Após autenticar-se pela primeira vez na aplicação usando login/senha, os próximos logins poderão ser feitos utilizando o leitor de digital do seu Smartphone (se disponível).",
+    "githubUrl": "https://github.com/Marcoozvn/AuthApp"
   }
 }
